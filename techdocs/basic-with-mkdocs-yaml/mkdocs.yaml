@@ -1,0 +1,4 @@
+site_name: basic-with-mkdocs-yaml
+site_description: A test of a basic mkdocs site with a mkdocs.yaml file instead
+plugins:
+  - techdocs-core

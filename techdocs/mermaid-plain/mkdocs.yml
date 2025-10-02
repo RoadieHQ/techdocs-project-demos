@@ -1,0 +1,4 @@
+site_name: mermaid-plain
+site_description: A test of a basic mkdocs site with mermaid syntax
+plugins:
+  - techdocs-core

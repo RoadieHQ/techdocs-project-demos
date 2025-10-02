@@ -1,0 +1,7 @@
+plugins:
+  - techdocs-core
+site_description: A test of a basic mkdocs site with mermaid syntax with extension
+site_name: mermaid-with-markdown-extension-yaml
+
+markdown_extensions:
+  - markdown_inline_mermaid

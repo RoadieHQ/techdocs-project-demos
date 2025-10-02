@@ -1,0 +1,13 @@
+site_name: Basic Test
+site_description: A test of a basic mkdocs site
+repo_url: https://github.com/RoadieHQ/roadie
+edit_uri: tree/main/packages/techdocs-tests/tests/mkdocs-projects/basic/docs
+plugins:
+  - techdocs-core
+markdown_extensions:
+  - markdown_inline_mermaid
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

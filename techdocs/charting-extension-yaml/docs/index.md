@@ -1,0 +1,13 @@
+# Test mkdocs-charts-plugin
+
+```vegalite
+{
+  "description": "A simple bar chart with embedded data.",
+  "data": {"url" : "assets/charts/data/basic_bar_chart.json"},
+  "mark": {"type": "bar", "tooltip": true},
+  "encoding": {
+    "x": {"field": "a", "type": "nominal", "axis": {"labelAngle": 0}},
+    "y": {"field": "b", "type": "quantitative"}
+  }
+}
+```
